@@ -89,26 +89,28 @@
             <span class="CAPability" style="vertical-align: middle">CAPability</span>
             </h1>
           <h2 class="subtitle is-3 publication-subtitle", style="margin-bottom: 20px; margin-left: -50px; margin-right: -50px;">
-            What Is a Good Caption? A Comprehensive Visual Caption Benchmark <br> for Evaluating Both Correctness and Coverage of MLLMs
+            What Is a Good Caption? A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness
           </h2>
           
-          <div class="is-size-5 publication-authors", style="width: 80%; margin: 20px auto;", >
+          <div class="is-size-5 publication-authors", style="width: 90%; margin: 20px auto;", >
             <span class="author-block", style="font-size:22px">Zhihang Liu<sup>1*</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Chen-Wei Xie<sup>2</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Bin Wen<sup>2</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Feiwu Yu<sup>2</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Jixuan Chen<sup>2</sup>,&thinsp;</span>
-            <br>
             <span class="author-block", style="font-size:22px">Boqiang Zhang<sup>1,2</sup>,&thinsp;</span>
-            <span class="author-block", style="font-size:22px">Nianzu Yang<sup>3,2</sup>,&thinsp;</span>
+            <br>
+            <span class="author-block", style="font-size:22px">Nianzu Yang<sup>3</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Pandeng Li<sup>1,2</sup>,&thinsp;</span>
+            <span class="author-block", style="font-size:22px">Yinglu Li<sup>1</sup>,&thinsp;</span>
+            <span class="author-block", style="font-size:22px">Zuan Gao<sup>1</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Yun Zheng<sup>2</sup>,&thinsp;</span>
             <span class="author-block", style="font-size:22px">Hongtao Xie<sup>1†</sup>,&thinsp;</span>
         </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Science and Technology of China,</span>
-            <span class="author-block"><sup>2</sup>Alibaba Group,</span>
+            <span class="author-block"><sup>1</sup>University of Science and Technology of China</span>
+            <span class="author-block"><sup>2</sup>Alibaba Group</span>
             <span class="author-block"><sup>3</sup>Shanghai Jiao Tong University</span>
             <!-- <span class="author-block"><sup style="color:#6fbf73;">1</sup>USTC,</span>
             <span class="author-block"><sup style="color:#ed4b82">2</sup>XMU,</span>
@@ -125,10 +127,8 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="#introduction"
+                <a href="https://arxiv.org/abs/2502.14914"
                    class="external-link button is-normal is-rounded is-dark">
-                <!-- <a href="https://lupantech.github.io/papers/arxiv23_mathvista.pdf"
-                   class="external-link button is-normal is-rounded is-dark"> -->
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
                   </span>
@@ -137,7 +137,7 @@
               </span>
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="#introduction"
+                <a href="https://github.com/ali-vilab/CAPability"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -147,11 +147,11 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="#introduction"
+                <a href="https://huggingface.co/datasets/lntzm/CAPability"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <!-- <i class="far fa-images"></i> -->
-                      <p style="font-size:18px">📊</p>
+                      <p style="font-size:18px">🤗</p>
                   </span>
                   <span>Dataset</span>
                 </a>
@@ -172,6 +172,38 @@
           </div>
         </div>
       </div>
+
+    <!-- New Content: TODO List and News -->
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+              <h2 class="title is-3">📋 Todo List</h2>
+              <div>
+                  <ul style="text-align: left; line-height: 1.6;">
+                      <li>☑️ Bump the evaluation model from GPT-4-Turbo to GPT-4.1-2025-04-14.</li>
+                      <li>☑️ Support <a href="https://github.com/EvolvingLMMs-Lab/lmms-eval">lmms-eval</a> for more convenient evaluation.</li>
+                      <li>☑️ Release QA format annotations of CAPability to support the metric KT.</li>
+                      <li>☑️ Release basic inference and evaluation code reported in the paper.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+              <h2 class="title is-3">🔥🔥 News</h2>
+              <ul style="text-align: left;">
+                  <li>🔥 <strong>[2025.04.16]</strong> Release the data on <a href="https://huggingface.co/datasets/lntzm/CAPability">🤗 Huggingface</a>.</li>
+                  <li>🔥 <strong>[2025.04.15]</strong> Updata the paper on <a href="https://arxiv.org/abs/2502.14914">ArXiv</a>.</li>
+                  <li>🔥 <strong>[2025.02.19]</strong> Release our paper on <a href="https://arxiv.org/abs/2502.14914">ArXiv</a>.</li>
+              </ul>
+          </div>
+      </div>
+    </div>
+
+
     </div>
   </div>
 </section>
@@ -185,7 +217,7 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3" id="abstract">Abstract</h2>
         <div class="content has-text-justified">
-          Recent advancements in Multimodal Large Language Models (MLLMs) have rendered traditional visual captioning benchmarks obsolete, as they primarily evaluate short descriptions with outdated metrics. While recent benchmarks address these limitations by decomposing captions into visual elements and adopting model-based evaluation, they remain incomplete—overlooking critical aspects, while providing vague, non-explanatory scores. To bridge this gap, we propose CAPability, a Comprehensive Visual Caption Benchmark that systematically evaluates caption quality across 6 views and 13 dimensions. CAPability introduces precision, recall, and hit rate metrics for each dimension, uniquely assessing both correctness and coverage. Experiments on leading MLLMs reveal significant capability gaps, particularly in dynamic and knowledge-intensive dimensions. These findings provide actionable insights for future research. The code and data will be released.
+          Visual captioning benchmarks have become outdated with the emergence of modern MLLMs, as the brief ground-truth sentences and traditional metrics fail to assess detailed captions effectively. While recent benchmarks attempt to address this by focusing on keyword extraction or object-centric evaluation, they remain limited to vague-view or object-view analyses and incomplete visual element coverage. We introduce CAPability, a comprehensive multi-view benchmark for evaluating visual captioning across 12 dimensions spanning six critical views. We curate nearly 11K human-annotated images and videos with visual element annotations to evaluate the generated captions. CAPability stably assesses both the correctness and thoroughness of captions using F1-score. By converting annotations to QA pairs, we further introduce a heuristic metric, know but cannot tell ($K\bar{T}$), indicating a significant performance gap between QA and caption capabilities. Our work provides the first holistic analysis of MLLMs' captioning abilities, as we identify their strengths and weaknesses across various dimensions, guiding future research to enhance specific aspects of capabilities.
         </div>
       </div>
     </div>
@@ -1044,24 +1076,20 @@
   </div>
 </section>
 
-<section class="section">
+<!-- <section class="section">
   <div class="container" style="margin-bottom: 2vh;">
-    <!-- Introduction. -->
+
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3" id="introduction">Introduction</h2>
+        <h2 class="title is-3" id="introduction">Overview</h2>
         <div class="content has-text-justified">
-          Visual captioning, which translates visual content into textual descriptions, is a fundamental task for both image and video understanding, and is a significant basis for image and video generation. To assess the capabilities of this task, several caption benchmarks were established by researchers in earlier years.<br><br>
-          However, with the rapid development of recent MLLMs, these traditional benchmarks have become outdated. This can be attributed to two main reasons: 1) The ground truths of traditional benchmarks often contain short sentences, missing many details. In contrast, recent MLLMs can produce much more detailed and fine-grained captions than the ground truths. 2) Traditional benchmarks use rule-based metrics, such as BLEU and CIDER, to directly compare the similarity between generated captions and ground-truth sentences, which are highly sensitive to sentence style and make evaluations unreliable.<br><br>
-          Recently, new visual caption benchmarks have been introduced to update the outdated ones. Inspired by scene graphs, DetailCaps and CompreCap focus on evaluating modern image MLLMs by extracting objects, attributes, and relations from image captions and proposing new model-based evaluation metrics. Dream-1K emphasizes evaluating video events by dividing video captions into several events. VDC extracts objects, background, and camera elements from both candidate and human-annotated captions, then compares these elements for scoring. Compared to traditional benchmarks, these new approaches change the ground truths from complete sentences to visual elements and update evaluation methods from rule-based to model-based, improving the reliability of benchmarking.<br><br>
-          However, the evaluation of these benchmarks remains incomplete. They focus on limited visual elements, inadequately covering the captions. For instance, they often overlook aspects like scene, text, and style. Their evaluation methods tend to assign vague scores, resulting in weak explainability and limited guidance on the model's capabilities in various aspects. For example, though VDC considers three aspects, its evaluation methods only calculate accuracy, neglecting the significance of visual element coverage in captions. We believe that considering both the accuracy and coverage of visual elements offers a better principle for visual captioning. In this paper, we introduce a new Comprehensive Visual Caption Benchmark (<strong>CAPability</strong>) with 6 views and 13 dimensions, evaluating both accuracy and coverage with 3 metrics for each dimension. To our knowledge, we are the first to heuristically highlight the accuracy and coverage capability gap of MLLMs in different views, guiding researchers to enhance these capabilities across dimensions.<br><br>
-          To assess caption capabilities from various aspects, we have designed 9 static and 4 dynamic dimensions, which together contribute to a complete visual caption, as illustrated in \cref{fig:intro}. We classify dimensions as dynamic or static based on the following principle: descriptions obtainable from a single frame are static, while those requiring the entire video are dynamic. We analyze that all these dimensions contribute to a comprehensive caption across various data types. We gather nearly 1,000 images/videos for each dimension, pre-annotate them using state-of-the-art MLLMs with our proposed one represents all strategy, and subsequently manually correct each sample. Since a caption cannot capture everything in an image or video, we calculate precision and recall, introducing a new hit rate metric for each dimension, thereby benchmarking not only accuracy but also the comprehensiveness of visual content coverage. We evaluate several popular MLLMs using our CAPability and find that they still struggle in some dimensions, indicating future directions for improved visual captioning.<br><br>
+          placeholder
         </div>
       </div>
     </div>
-    <!--/ Introduction. -->
+
 </div>
-</section>
+</section> -->
 
 <section class="section">
   <div class="container">
@@ -1070,14 +1098,14 @@
         <h2 class="title is-3">Dimension Design</h2>
         <div class="content has-text-justified">
           <p style="text-align: justify; margin-left: auto; margin-right: auto; width: 80%;", class="mt-3">
-            An example of image caption (left) and video caption (right). By analyzing the components of captions. We conclude 9 static dimensions and 4 dynamic dimensions, which all contribute to a detailed and comprehensive caption. The static dimensions are shared on both image and video. For video data, there are additional dynamic dimensions as they need to be judged with temporal relations. These dimensions can also be summarized from 6 views.
+            An example of image caption (left) and video caption (right). By analyzing the components of captions, we conclude 12 dimensions (9 static dimensions and 4 dynamic dimensions with object number shares on both static and dynamic), which all contribute to a detailed and comprehensive caption. The static dimensions are shared in both images and videos. For video data, there are additional dynamic dimensions as they need to be judged with temporal relations.
           </p>
 
         <div id="results-carousel" class="carousel results-carousel">  
           
             <div class="content has-text-centered">
 
-              <img src="static/images/dimension.png" style="width: 95%;"/>
+              <img src="static/images/overview.jpg" style="width: 95%;"/>
               <!-- <p style="margin-bottom: 30px;">🔗 Full Video Link:&nbsp;&nbsp;<a href="https://www.youtube.com/watch?v=VFntoBRGF1A">https://www.youtube.com/watch?v=VFntoBRGF1A</a></p> -->
               <!-- <p style="margin-bottom: 30px;">🔗<a href="https://www.youtube.com/watch?v=VFntoBRGF1A">Full Video Link</a></p> -->
             
@@ -1119,65 +1147,27 @@
         <div class="content has-text-centered">
           <h2 class="title is-3" style="margin-top: 30px;">Benchmark Statistics</h2>
           
-          <!-- bing tu -->
-          <!-- <div class="container-wrapper">
-            <div id="container"></div>
-            <div id="image-container">
-              <img src="static/images/data_source_distribution.png" alt="data-composition" style="text-align: center;"/>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/data_source_distribution.png" alt="data-composition" style="max-width: 80%;"/>
+              <p style="text-align: justify; margin-left: auto; margin-right: auto; width: 80%;"> 
+                The data source count and distribution of each dimension. We collect nearly 1,000 images/videos for each dimension, crawl parts of data by ourselves, and sample some data from existing datasets to ensure diversity.
+              </p>
             </div>
-          </div> -->
-        <!-- <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
-        <script type="text/javascript" src="static/js/bingtu.js"></script> -->
-        <img src="static/images/data_source_distribution.png" alt="data-composition" style="max-width: 60%;"/>
-        
-        <p style="text-align: justify; margin-left: auto; margin-right: auto; width: 50%;"> 
-          The data source count and distribution of each dimension. We collect nearly 1,000 images/videos for each dimension, crawl parts of data by ourselves, and sample some data from existing datasets to ensure diversity.
-        </p>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/data_distribution.png" alt="data-composition" style="max-width: 80%;"/>
+              <p style="text-align: justify; margin-left: auto; margin-right: auto; width: 80%;"> 
+                The annotation distribution of each dimension. We statistic different dimensions with different types. We count the frequency in object categories, character identification, and action as most of the descriptions only appear one time. For spatial relation, we summarize 4 categories and count their numbers. For style, camera angle, and camera movement, we count the samples of each category. For others, we plot bar charts to count and show the most frequent samples.
+              </p>
+            </div>
+          </div>
 
         </div>
       </div>
     </div>
 
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content has-text-centered">
-          <h2 class="title is-3" style="margin-top: 30px;">Benchmark Construction</h2>
-          
-          <!-- bing tu -->
-          <!-- <div class="container-wrapper">
-            <div id="container"></div>
-            <div id="image-container">
-              <img src="static/images/data_source_distribution.png" alt="data-composition" style="text-align: center;"/>
-            </div>
-          </div> -->
-        <!-- <script type="text/javascript" src="https://registry.npmmirror.com/echarts/5.5.0/files/dist/echarts.min.js"></script>
-        <script type="text/javascript" src="static/js/bingtu.js"></script> -->
-        <img src="static/images/anno_pipeline.png" alt="data-composition" style="max-width: 40%;"/>
-        
-        <p style="text-align: justify; margin-left: auto; margin-right: auto; width: 50%;"> 
-          <strong>Data Collection.</strong> For convenience and problem simplification, we only collect image data for static dimensions and video data for dynamic dimensions.
-          This is based on the common sense that the video understanding capabilities for MLLMs are usually built upon sufficient image understanding capabilities. 
-          Since an image or a video cannot cover all these dimensions of information, we directly collect nearly 1,000 images or videos for each dimension independently, and evaluate each dimension separately as sub-tasks.
-          For static dimensions, we mainly collect images from SA-1B, COYO-700M, Wukong, Wikipaintings, and we also crawl some data from multiple websites by ourselves. We also borrow parts of image data and annotations from CompreCap for spatial relation dimension. For dynamic dimensions, we also crawl and cut videos from multiple websites for camera movement dimension, borrow videos from Dream-1K for action and event dimensions, and borrow videos from VSI-Bench.
-          <br><br>
-          <strong>The one represents all pre-annotation strategy.</strong> For object-related dimensions, it is extremely hard to annotate all objects within an image or a video, as the categories of objects can be divided by almost infinite granularity. Therefore, we do not pursue the most comprehensive annotation possible for each single sample, but randomly select an object from the objects in the image and reflect the accuracy and coverage through the evaluation of a large number of samples. We name this strategy as One Represents All. According to the law of large numbers, the distribution of randomly selected objects can approximate the expectation of covering different granularities of the entire image with a large amount of samples, thus ensuring the unbiased nature of the benchmark. Therefore, the key of this annotation strategy is to keep the selection of objects as random as possible. To avoid human's random bias on selecting objects, we ask the most three SOTA MLLMs, \ie, GPT-4o, Gemini-1.5-pro, and Qwen-VL-Max to list all objects at the granularity they deem appropriate in an image. We finally use Qwen2.5-Max to merge the object results together and randomly select one from the merged list to obtain the pre-annotated results of object category dimension. For other object-related dimensions, we follow the strategy to randomly select objects, and further pre-annotate other attributes, \eg, number, color, spatial relations. 
-          For other dimensions, we also pre-annotate them with models for convenience and simplicity of further human annotations and data balance.
-          <br><br>
-          <strong>Human annotation.</strong> different dimensions, we design different tasks for human annotators. For example, human annotators are asked to only judge right or wrong for object category since we need to keep the randomness. As for other dimensions, we ask annotators to check the pre-annotations one-by-one, and correct them if there are any mistakes. We pre-define fixed categories for the style, camera angle, and camera movement dimensions, which needs annotators to select the correct option. For other dimensions, we keep the annotation open-set to ensure diversity, which need annotators to modify the annotation by themselves.
-          <br><br>
-          <strong>Data balance.</strong> After the annotation and validation, the data of some dimensions (\eg, the number and color) shows a long-tailed distribution. We further suppress the data of head categories, and sample more from tail categories, making the distribution more balanced.
-          <br><br>
-          <strong>Evaluation Metrics.</strong> For the same caption, we evaluate it within each dimension separately, which can be considered as 14 different sub-tasks. Different from matching the similarity between the caption and annotations, we use GPT-4 Turbo to take scores for each dimension. We use a similar prompt template for all pre-defined dimension, (\ie, style, camera angle, and camera movement) and use another similar prompt template open-set dimension. Specifically, we ask GPT-4 Turbo to judge the caption into the following three situations: 
-          1) Miss, which means the caption does not mention the corresponding content about the dimension.
-          2) Positive, which means the caption mentions the corresponding content, and describes correctly.
-          3) Negative, which means the caption mentions the corresponding content, but gives a wrong description.
-          As all data can be judged into these three situations, we can then calculate these three metrics: 
-          1) <strong>Precision</strong> which represents the accuracy on all of samples that the model has mentioned, and thus considers the precision of the caption. 2) <strong>Recall</strong>, which represents the accuracy on all annotated samples, no matter whether the dimension is described in the caption, and thus considers both the correctness and coverage of the caption. 3) <strong>Hit rate</strong>, which represents the referring ratio about the dimension in visual caption, and thus only considers the coverage of the caption.
-        </p>
-
-        </div>
-      </div>
-    </div>
 
 <!-- 
     <div class="columns is-centered">
@@ -1216,17 +1206,35 @@
 
     <div class="columns is-centered m-6">
       <div class="column is-full has-text-centered content">
-        <h2 class="title is-3">Results on SOTA 7B Models</h2>
+        <h2 class="title is-3">Results on SOTA Models</h2>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/7b_score.jpg" alt="grade-lv" width="80%"/>
-              <p>Precision, recall, and f1-score results of five representative MLLMs.</p>
+              <img src="static/images/radar.png" alt="grade-lv" width="40%"/>
+              <p>Radar map visualization of F1-score on five representitive MLLMs.</p>
             </div>
           </div>
           <div class="box m-5">
             <div class="content has-text-centered">
-              <img src="static/images/7b_hit_rate.jpg" alt="grade-lv" width="80%"/>
-              <p>Hit rate results of five representative MLLMs.</p>
+              <img src="static/images/72B.png" alt="grade-lv" width="80%"/>
+              <p>The precision, recall, and F1-score of closed-source models and 72B open-source models on all dimensions. The precision represents the accuracy of what the models have described. The recall shows how many visual elements in the image can be described correctly. F1-Score is the harmonic mean of precision and recall. For video inputs, we send the whole video for Gemini, and uniformly sample 50 frames for GPT due to the API limitation of maximum number of images.</p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered m-6">
+      <div class="column is-full has-text-centered content">
+        <h2 class="title is-3">Evaluation Examples</h2>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/eval_example1.jpg" alt="grade-lv" width="70%"/>
+              <p>Evaluation example of Object Number dimension on three SOTA models.</p>
+            </div>
+          </div>
+          <div class="box m-5">
+            <div class="content has-text-centered">
+              <img src="static/images/eval_example2.jpg" alt="grade-lv" width="70%"/>
+              <p>Evaluation example of Cemara Angle dimension on three SOTA models.</p>
             </div>
           </div>
       </div>
@@ -1283,13 +1291,12 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <pre><code>
-    @misc{liu2024capability,
-      title={What Is a Good Caption? A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Coverage of MLLMs},
-      author={Liu, Zhihang and Xie, Chen-Wei and Wen, Bin and Yu, Feiwu and Chen, Jixuan and Zhang, Boqiang and Yang, Nianzu and Li, Pandeng and Zheng, Yun and Xie, Hongtao},
-      month={February},
-      year={2024},
-      howpublished={\url{https://https://capability-bench.github.io}}
-    }
+      @article{liu2025good,
+        title={What Is a Good Caption? A Comprehensive Visual Caption Benchmark for Evaluating Both Correctness and Thoroughness},
+        author={Liu, Zhihang and Xie, Chen-Wei and Wen, Bin and Yu, Feiwu and Chen, Jixuan and Zhang, Boqiang and Yang, Nianzu and Li, Pandeng and Li, Yinglu and Gao, Zuan and Zheng, Yun and Xie, Hongtao},
+        journal={arXiv preprint arXiv:2502.14914},
+        year={2025}
+      }
 </code></pre>
   </div>
 </section>
